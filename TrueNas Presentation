@@ -2,6 +2,7 @@ TrueNas Presentation
 
 What is a NAS 
   NAS means Network Attache Storage
+  It usually refers to a device that is meant solely for storage, just like a google drive
 
 What's TrueNas ?
   TrueNas is a Linux based Operating System made to create and manage a NAS device.
