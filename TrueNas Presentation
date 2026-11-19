@@ -1,16 +1,16 @@
 TrueNas Presentation
 
 What is a NAS 
-  NAS means Network Attache Storage
+  NAS means Network Attached Storage
   It usually refers to a device that is meant solely for storage, just like a google drive
 
 What's TrueNas ?
   TrueNas is a Linux based Operating System made to create and manage a NAS device.
-  It can be installed on any x32-64 x86 or ARM device to make it into a special server, that you can tailor to your needs.
+  It can be installed on any x86 or ARM device to make it into a special server, that you can tailor to your needs.
   The OS is quite light, making it a pretty good choice for older hardware, which means if you have an older computer that's 
 been sitting around, it could be time to put it to good use !
-  TrueNas has been mainly used to create storage servers, In my case, I putted it on a second hand computer for my family, 
-to which I added two 2To HDD in a mirror configuration
+  TrueNas has been mainly used to create storage servers, In my case, I put it on a second hand computer for my family, 
+to which I added two 2-terabytes HDD in a mirror configuration
   But it can be used and configured for many other uses, just like any linux distribution.
 
 Going beyond a simple storage server ?
@@ -18,14 +18,18 @@ Going beyond a simple storage server ?
   You can directly install apps on it, for instance, one very handy application was Tailscale a VPN, making any device linked to my
 tailscale able to connect to the server. Which comes in pretty handy when I'm far away from my home server.
 
- What protocole uses truenas to ?
+ What protocols does TrueNas use ?
   Truenas has a web interface going through the 80 and 443 ports, so HTTP and HTTPS. Making the whole ordeal a lot easier to handle.
   It also can be administered through SSH (port22), and with tailscale it becomes a breeze to manage.
-  The most important part with this System comes with its' way of handling SMB and FTP protocole.
+  The most important part of this System comes with its way of handling SMB and FTP protocols very smoothly and with 
+minimum configuration requirement.
 
  What is recommended for a NAS server ? 
-  Usually I would recommend using an older desktop that you had before, for instance an old I5 or I7 can do the trick as long as it
-. 
+  Usually I would recommend using an older desktop that you had before, for instance an older Core i5 or i7 (from 6th to 10th generation) 
+unless you had an AMD platforms, so a Ryzen 5 or 7 (from the 1st/3rd or 5th generation) can do the trick as long as it is paired with at least 8GiB of RAM, 
+and enough storage, even two 500 GiB HDD mirrored can offer good data security as well as enough storage for
+normal use, as long as you don't work in video/ photo editing or any storage hungry work.
+
  
 
 
