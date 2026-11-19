@@ -18,7 +18,14 @@ Going beyond a simple storage server ?
   You can directly install apps on it, for instance, one very handy application was Tailscale a VPN, making any device linked to my
 tailscale able to connect to the server. Which comes in pretty handy when I'm far away from my home server.
 
-What protocole uses truenas to ?
+ What protocole uses truenas to ?
   Truenas has a web interface going through the 80 and 443 ports, so HTTP and HTTPS. Making the whole ordeal a lot easier to handle.
   It also can be administered through SSH (port22), and with tailscale it becomes a breeze to manage.
-  The most important part with this System comes with its' way of handling SMB and FTP protocole. 
+  The most important part with this System comes with its' way of handling SMB and FTP protocole.
+
+ What is recommended for a NAS server ? 
+  Usually I would recommend using an older desktop that you had before, for instance an old I5 or I7 can do the trick as long as it
+. 
+ 
+
+
