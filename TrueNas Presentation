@@ -15,5 +15,10 @@ to which I added two 2To HDD in a mirror configuration
 
 Going beyond a simple storage server ?
   TrueNas supports Docker, which is a really usefull tool to compartmentalize services, like webservers or databases.
-  You can directly install apps on it, for instance, one very handy application was Tailscale a VPN, making any device connected to my
-tailscale able to connect to the server
+  You can directly install apps on it, for instance, one very handy application was Tailscale a VPN, making any device linked to my
+tailscale able to connect to the server. Which comes in pretty handy when I'm far away from my home server.
+
+What protocole uses truenas to ?
+  Truenas has a web interface going through the 80 and 443 ports, so HTTP and HTTPS. Making the whole ordeal a lot easier to handle.
+  It also can be administered through SSH (port22), and with tailscale it becomes a breeze to manage.
+  The most important part with this System comes with its' way of handling SMB and FTP protocole. 
